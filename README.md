@@ -3,7 +3,7 @@
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ```
-npx create-remix@latest --template edmundhung/remix-cloudflare-template
+npx create-remix@latest --template indieventuresllc/framework
 ```
 
 What's included?
