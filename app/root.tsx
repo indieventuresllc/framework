@@ -1,20 +1,16 @@
-import type {
-	LinksFunction,
-	LoaderFunctionArgs,
-	MetaFunction,
-} from '@remix-run/cloudflare';
+import type { LinksFunction, LoaderFunctionArgs, MetaFunction } from 'react-router';
 import * as React from 'react';
 import {
-	Links,
-	Meta,
-	Outlet,
-	Scripts,
-	ScrollRestoration,
-	isRouteErrorResponse,
-	json,
-	useLoaderData,
-	useRouteError,
-} from '@remix-run/react';
+    Links,
+    Meta,
+    Outlet,
+    Scripts,
+    ScrollRestoration,
+    isRouteErrorResponse,
+    json,
+    useLoaderData,
+    useRouteError,
+} from 'react-router';
 import stylesUrl from '~/styles.css?url';
 import { type Menu, ErrorLayout, Layout } from './layout';
 

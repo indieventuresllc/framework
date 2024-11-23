@@ -1,5 +1,5 @@
-import type { LoaderFunctionArgs } from '@remix-run/cloudflare';
-import { json, useLoaderData } from '@remix-run/react';
+import type { LoaderFunctionArgs } from 'react-router';
+import { json, useLoaderData } from 'react-router';
 import { Markdown } from '~/components';
 import { getFileContentWithCache } from '~/services/github.server';
 import { parse } from '~/services/markdoc.server';

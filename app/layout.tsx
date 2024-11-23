@@ -1,7 +1,7 @@
 import chevronUpIcon from '~/assets/chevron-up.svg';
 import chevronRightIcon from '~/assets/chevron-right.svg';
 import remixLetterLogo from '~/assets/remix-letter-light.svg';
-import { Link, useLocation } from '@remix-run/react';
+import { Link, useLocation } from 'react-router';
 import { Fragment, useEffect, useLayoutEffect, useRef } from 'react';
 
 export interface Menu {

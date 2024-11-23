@@ -1,5 +1,5 @@
 import type { Endpoints } from '@octokit/types';
-import type { AppLoadContext } from '@remix-run/cloudflare';
+import type { AppLoadContext } from 'react-router';
 
 export function getHeaders(auth: string | undefined) {
 	const headers = new Headers({
